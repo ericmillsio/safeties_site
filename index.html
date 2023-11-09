@@ -4,42 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Density Ventures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        .container { width: 80%; margin: auto; overflow: hidden; }
-        header { background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #0066cc 3px solid; }
-        header a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
-        header ul { padding: 0; list-style: none; }
-        header li { float: left; display: inline; padding: 0 20px 0 20px; }
-        header #branding { float: left; }
-        header #branding h1 { margin: 0; }
-        header nav { float: right; margin-top: 10px; }
-        header .highlight, header .current a { color: #e8491d; font-weight: bold; }
-        header a:hover { color: #ffffff; font-weight: bold; }
-        .cta { color: #333; background: #f4f4f4; padding: 20px; text-align: center; }
-        .cta h1 { margin-bottom: 10px; }
-        footer { background: #333; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #343a40;
+            padding: 0 10%;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .hero {
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 10%;
+        }
+        .hero-title {
+            max-width: 800px;
+            margin: 0;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 30px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .criteria, .focus {
+            padding: 40px 10%;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>Density Ventures</h1>
-            </div>
+    <div class="navbar">
+        <div>Density Ventures</div>
+        <div>
+            <a href="#criteria">Criteria</a>
+            <a href="#focus">Focus</a>
+            <a href="#contact">Contact</a>
         </div>
-    </header>
+    </div>
 
-    <section class="container">
-        <div class="cta">
-            <h1>Join the dense network of Chicago's smartest founders.</h1>
-            <p>Unlock free desk space at 1871 and become part of a community that shares your ambition.</p>
-            <a href="#apply" class="apply-button">Apply Now</a>
+    <div class="hero">
+        <div class="hero-title">
+            <h1>Dense group of the smartest founders in Chicago.</h1>
+            <p>Join us at 1871, offering free desk space to Chicago's top founders focused on AI and SaaS ventures.</p>
+            <a href="#contact" class="cta-button">Apply Now</a>
         </div>
-        
+    </div>
+
+    <div class="criteria" id="criteria">
         <h2>Criteria for Acceptance:</h2>
-        <ul>
-            <li>Product built and on the market.</li>
+        <p>At Density Ventures, we have a clear set of standards to ensure that our community remains as impactful as possible:</p>
+        <ul>      <li>Product built and on the market.</li>
             <li>Actively selling to customers.</li>
             <li>Scalable and venture backable business idea.</li>
             <li>Plan to raise funding in 6-12 months.</li>
@@ -47,19 +90,21 @@
             <li>Promise to work in-person, in-office at least 4 days per week (unless you are traveling for sales)</li>
             <li>Currently have only founders, no full-time employees (flexible).</li>
         </ul>
-        
-        <h2>Focus Areas:</h2>
-        <p>We're looking for founders who are innovating with AI-powered products and SaaS businesses.</p>
-        
-        <div id="apply">
-            <h2>Ready to Take the Next Step?</h2>
-            <p>Your desk at 1871 is waiting. Apply now to join Density Ventures.</p>
-            <a href="mailto:apply@densityventures.com" class="apply-button">Contact Us to Apply</a>
-        </div>
-    </section>
+    </div>
+
+    <div class="focus" id="focus">
+        <h2>Our Focus:</h2>
+        <p>We're laser-focused on startups that are building the future with AI technology and creating value with SaaS business models.</p>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Apply to Density Ventures</h2>
+        <p>Ready to accelerate your startup's growth? Connect with us and take the first step towards joining Chicago's elite group of founders.</p>
+        <a href="mailto:apply@densityventures.com" class="cta-button">Get in Touch</a>
+    </div>
 
     <footer>
-        <p>Density Ventures © 2023 | Chicago</p>
+        Density Ventures © 2023 | A hub for Chicago's brightest entrepreneurial minds.
     </footer>
 </body>
 </html>
