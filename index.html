@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Density Ventures</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
     <style>
-        body, html {
+        body,
+        html {
             height: 100%;
             margin: 0;
             font-family: 'Roboto Mono', sans-serif;
             background: #1e1e1e;
             color: #c6c6c6;
         }
-        a, a:visited {
-            color: #FFF500;
+
+        a,
+        a:visited {
+            color: #a159ff;
         }
+
         .navbar {
             display: flex;
             align-items: center;
@@ -24,38 +30,43 @@
             padding: 0 10%;
             color: white;
         }
+
         .navbar a {
             color: white;
             padding: 14px 20px;
             text-decoration: none;
             text-transform: uppercase;
         }
+
         .hero {
             height: 40%;
             display: flex;
             justify-content: center;
             align-items: center;
-            text-align: center;
+            text-align: left;
             padding: 0 10%;
         }
+
         .hero-title {
-            max-width: 800px;
             margin: 0;
         }
+
         .cta-button {
             display: inline-block;
             margin-top: 20px;
             padding: 10px 30px;
-            background-color: #FFF500;
-            color: rgb(23, 23, 23) !important;
+            background-color: #7D19FF;
+            color: rgb(255, 255, 255) !important;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
         }
+
         section {
             padding: 20px 10%;
         }
+
         footer {
             background-color: #343a40;
             color: white;
@@ -65,13 +76,16 @@
         }
     </style>
 </head>
+
 <body>
 
     <div class="hero">
         <div class="hero-title">
-            <h1><img alt="Density Ventures" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9Ijk1IiB2aWV3Qm94PSIwIDAgNDAwIDk1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMCA5M1YySDE5LjM3NUMzMC40NTgzIDIgMzkuMDQxNyA2LjA2MjUgNDUuMTI1IDE0LjE4NzVDNTEuMjA4MyAyMi4zMTI1IDU0LjI1IDMyLjg5NTggNTQuMjUgNDUuOTM3NVY0OS4wNjI1QzU0LjI1IDYzLjEwNDIgNTEgNzMuOTM3NSA0NC41IDgxLjU2MjVDMzggODkuMTg3NSAyOS42MjUgOTMgMTkuMzc1IDkzSDBaTTIuNzUgOTAuNDM3NUgxOS4zNzVDMjguNjI1IDkwLjQzNzUgMzYuMjcwOCA4Ni44MzMzIDQyLjMxMjUgNzkuNjI1QzQ4LjM5NTggNzIuMzc1IDUxLjQzNzUgNjIuMTY2NyA1MS40Mzc1IDQ5VjQ2LjEyNUM1MS40Mzc1IDMzLjc1IDQ4LjYwNDIgMjMuNzI5MiA0Mi45Mzc1IDE2LjA2MjVDMzcuMjcwOCA4LjM5NTgzIDI5LjQxNjcgNC41NjI1IDE5LjM3NSA0LjU2MjVIMi43NVY5MC40Mzc1Wk03My42ODI1IDkzVjJIMTE4LjYyVjYuMzc1SDc4LjU1NzVWNDMuODEyNUgxMTIuNDk1VjQ4LjE4NzVINzguNTU3NVY4OC42MjVIMTE5LjI0NVY5M0g3My42ODI1Wk0xMzIuNTUzIDkzVjJIMTQwLjU1M0wxNzQuOTI4IDc0Ljg3NUMxNzUuNTk0IDc2LjEyNSAxNzYuMTU3IDc3LjQ3OTIgMTc2LjYxNSA3OC45Mzc1QzE3Ny4wNzMgODAuMzU0MiAxNzcuNDY5IDgxLjY0NTggMTc3LjgwMyA4Mi44MTI1SDE3OC4xMTVDMTc4LjA3MyA4MS41MjA4IDE3OC4wMzIgODAuMDYyNSAxNzcuOTkgNzguNDM3NUMxNzcuOTkgNzYuODEyNSAxNzcuOTkgNzUuMzU0MiAxNzcuOTkgNzQuMDYyNVYySDE4NC4yNFY5M0gxNzYuNDI4TDE0MS44MDMgMjAuMTg3NUMxNDEuMjE5IDE5LjAyMDggMTQwLjY3OCAxNy43MDgzIDE0MC4xNzggMTYuMjVDMTM5LjY3OCAxNC43OTE3IDEzOS4yNjEgMTMuNDU4MyAxMzguOTI4IDEyLjI1SDEzOC42MTVDMTM4LjY5OCAxMy41ODMzIDEzOC43NCAxNS4xMDQyIDEzOC43NCAxNi44MTI1QzEzOC43ODIgMTguNDc5MiAxMzguODAzIDE5Ljk1ODMgMTM4LjgwMyAyMS4yNVY5M0gxMzIuNTUzWk0yMDAuOTIzIDcwLjgxMjVWNjMuNjg3NUgyMTEuODZWNzAuMTg3NUMyMTEuODYgNzUuNDc5MiAyMTMuMDA2IDc5LjMxMjUgMjE1LjI5OCA4MS42ODc1QzIxNy41ODkgODQuMDIwOCAyMjAuODM5IDg1LjE4NzUgMjI1LjA0OCA4NS4xODc1QzIyOS4yMTQgODUuMTg3NSAyMzIuMzgxIDg0LjAyMDggMjM0LjU0OCA4MS42ODc1QzIzNi43NTYgNzkuMzU0MiAyMzcuODYgNzUuNjY2NyAyMzcuODYgNzAuNjI1QzIzNy44NiA2NiAyMzYuNzk4IDYyLjQ1ODMgMjM0LjY3MyA2MEMyMzIuNTg5IDU3LjUgMjI4LjU2OCA1NC42MjUgMjIyLjYxIDUxLjM3NUMyMTUuNzM1IDQ3Ljc1IDIxMC41ODkgNDMuOTc5MiAyMDcuMTczIDQwLjA2MjVDMjAzLjc5OCAzNi4xMDQyIDIwMi4xMSAzMC42NjY3IDIwMi4xMSAyMy43NUMyMDIuMTEgMTYuMzMzMyAyMDQuMTEgMTAuNjY2NyAyMDguMTEgNi43NUMyMTIuMTUyIDIuODMzMzMgMjE3LjczNSAwLjg3NSAyMjQuODYgMC44NzVDMjMxLjgxOCAwLjg3NSAyMzcuMzE4IDIuNzUgMjQxLjM2IDYuNUMyNDUuNDQzIDEwLjIwODMgMjQ3LjQ4NSAxNS41ODMzIDI0Ny40ODUgMjIuNjI1VjI5LjMxMjVIMjM2LjczNVYyMy40Mzc1QzIzNi43MzUgMTkuMDYyNSAyMzUuNzM1IDE1Ljc1IDIzMy43MzUgMTMuNUMyMzEuNzc3IDExLjIwODMgMjI4Ljg2IDEwLjA2MjUgMjI0Ljk4NSAxMC4wNjI1QzIyMC44NiAxMC4wNjI1IDIxNy44ODEgMTEuMTA0MiAyMTYuMDQ4IDEzLjE4NzVDMjE0LjIxNCAxNS4yMjkyIDIxMy4yOTggMTguNTYyNSAyMTMuMjk4IDIzLjE4NzVDMjEzLjI5OCAyNy4xMDQyIDIxNC40MjMgMzAuMzEyNSAyMTYuNjczIDMyLjgxMjVDMjE4LjkyMyAzNS4zMTI1IDIyMi45ODUgMzguMDIwOCAyMjguODYgNDAuOTM3NUMyMzUuNzM1IDQ0LjQzNzUgMjQwLjc5OCA0OC4yOTE3IDI0NC4wNDggNTIuNUMyNDcuMzM5IDU2LjcwODMgMjQ4Ljk4NSA2Mi40MTY3IDI0OC45ODUgNjkuNjI1QzI0OC45ODUgNzcuNSAyNDYuODgxIDgzLjU2MjUgMjQyLjY3MyA4Ny44MTI1QzIzOC41MDYgOTIuMDIwOCAyMzIuNjczIDk0LjEyNSAyMjUuMTczIDk0LjEyNUMyMTcuNjczIDk0LjEyNSAyMTEuNzU2IDkyLjIwODMgMjA3LjQyMyA4OC4zNzVDMjAzLjA4OSA4NC41NDE3IDIwMC45MjMgNzguNjg3NSAyMDAuOTIzIDcwLjgxMjVaTTI1OS40MTggOTNMMjY0LjIzIDJIMjc5LjczTDI3NC45MTggOTNIMjU5LjQxOFpNMjg4LjY2MyAxOS41NjI1TDI4OS45MTMgMkgzMzYuNzg4TDMzNS41MzggMTkuNTYyNUgzMjIuMDM4TDMxNi44NSA5M0gyOTcuMDM4TDMwMi4yMjUgMTkuNTYyNUgyODguNjYzWk0zNDQuODQ1IDkzTDM1MC4yODMgNjIuMzEyNUwzNDUuNzgzIDJIMzY5LjIyTDM2Ny40NyAzNS42ODc1QzM2Ny40NyAzNi4zMTI1IDM2Ny40MDggMzcuMTI1IDM2Ny4yODMgMzguMTI1QzM2Ny4xOTkgMzkuMTI1IDM2Ny4xMzcgMzkuODEyNSAzNjcuMDk1IDQwLjE4NzVIMzY3LjIyQzM2Ny4zMDMgMzkuODEyNSAzNjcuNDcgMzkuMTI1IDM2Ny43MiAzOC4xMjVDMzY3Ljk3IDM3LjA4MzMgMzY4LjE3OCAzNi4yOTE3IDM2OC4zNDUgMzUuNzVMMzc4LjI4MyAySDM5OS43ODNMMzczLjE1OCA2Mi4zMTI1TDM2Ny43MiA5M0gzNDQuODQ1WiIgZmlsbD0iI0ZGRjUwMCIvPgo8L3N2Zz4K"></h1>
+            <h1><img alt="Density Ventures" src="logo.svg" height="100">
+            </h1>
             <h2>Dense Group of Elite Chicago Founders</h2>
-            <p>Join our informal incubator offering free desk space @ 1871 to Chicago's top founders focused on AI and SaaS ventures.</p>
+            <p>Join our informal incubator offering free desk space @ 1871 to Chicago's top founders focused on AI and
+                SaaS ventures.</p>
             <a href="#contact" class="cta-button">Apply Now</a>
         </div>
     </div>
@@ -82,16 +96,18 @@
         <h2>The Deal</h2>
         <ul>
             <li>Free dedicated desk space in shared room of founders @ 1871 (approx 6 months)</li>
-            <li>Co-mentorship and expertise from 10-20 elite founders in Density</li>
-            <li>YCombinator style small-group discussions</li>
+            <li>Co-mentorship and expertise from 10-15 elite founders in Density</li>
+            <li>Weekly YCombinator style small-group discussions</li>
             <li>We take no equity or payment. This is very informal.</li>
         </ul>
     </section>
 
     <section id="criteria">
         <h2>Acceptance Criteria</h2>
-        <p>At Density, we have a clear set of standards to ensure that our community remains as impactful as possible:</p>
-        <ul>     
+        <p>At Density, we have a clear set of standards to ensure that our community remains as impactful as possible:
+        </p>
+        <ul>
+            <li>Founders with prior startup experience.</li>
             <li>Product built and on the market.</li>
             <li>Actively selling to customers.</li>
             <li>Scalable and venture backable business idea.</li>
@@ -99,23 +115,32 @@
             <li>Willing to share expertise with fellow founders.</li>
             <li>Promise to work in-person, in-office at least 4 days per week (unless you are traveling for sales).</li>
             <li>Currently have only founders, no full-time employees (flexible).</li>
-            <li>We're focused on startups that are building the future with AI technology and creating value with SaaS business models.</li>
+            <li>We're focused on AI and SaaS startups.</li>
         </ul>
     </section>
 
     <section id="motivation">
         <h2>Why are we doing this?</h2>
-        <p>Get great founders in a small room working independently on their startups. Most early founders are tired of WFH and coffeeshops.</p>
-        <p>Underlying motivation is to help 1871 regrow post-covid. The gameplan is get great founders in one room with a high likelihood of raising capital, and then go on to rent more 1871 space for their new team.</p>
+        <p>Working from home alone on your startup sucks. Top founders in the same room fosters massive creativity and
+            support.</p>
     </section>
     <section id="contact">
         <h2>Apply to Density</h2>
-        <p>Send an email to <a href="mailto:apply@density.ventures?subject=Density Application">apply@density.ventures</a> with your team's linkedins, link to your startup, and why you want to do it.</p>
-        <a href="mailto:apply@density.ventures?subject=Density Application" class="cta-button">Apply Now</a>
+        <p>Send an email to <a
+                href="mailto:apply@density.ventures?subject=Density Application">apply@density.ventures</a> with your
+            team's linkedins, link to your startup, and why you want to do it.</p>
+        <a href="mailto:apply@density.ventures?subject=Density%20Application" class="cta-button">Apply by Email</a>
+    </section>
+
+    <section>
+        <h2>Space Supported By</h2>
+        <p>1871 has generously offered their office space.</p>
+        <img src="1871.png" alt="1871" style="max-width: 300px;">
     </section>
 
     <footer>
-        Density Ventures © 2023 | A hub for Chicago's brightest entrepreneurial minds.
+        Density Ventures © 2023
     </footer>
 </body>
+
 </html>
