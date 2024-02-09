@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SafeTies</title>
+    <title>SafeTies - 2FA for People</title>
+    <meta name="description" content="Prevent AI Deepfakes. Dynamic Safewords for Secure Conversations.">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
@@ -20,7 +21,7 @@
 
         a,
         a:visited {
-            color: #ED2124;
+            color: #968fd7;
         }
 
         .navbar {
@@ -28,7 +29,7 @@
             align-items: center;
             justify-content: space-between;
             background-color: #343a40;
-            padding: 0 10%;
+            padding: 0 30px;
             color: white;
         }
 
@@ -40,7 +41,9 @@
         }
 
         .hero {
-            padding: 20px 10%;
+            padding: 80px 30px 40px;
+            max-width: 800px;
+            margin: auto;
         }
 
         .hero-title {
@@ -51,8 +54,8 @@
             display: inline-block;
             margin-top: 20px;
             padding: 10px 30px;
-            background-color: #ED2124;
-            color: #1e1e1e !important;
+            background-color: #6153df;
+            color: #fff !important;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -61,11 +64,13 @@
         }
 
         .cta-button:hover {
-            background-color: #b31416;
+            background-color: rgb(136, 126, 234);
         }
 
         section {
-            padding: 20px 10%;
+            padding: 20px 30px;
+            max-width: 800px;
+            margin: auto;
         }
 
         footer {
@@ -75,6 +80,24 @@
             padding: 20px 0;
             margin-top: 40px;
         }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 1.8em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
     </style>
 </head>
 
@@ -82,28 +105,83 @@
 
     <div class="hero">
         <div class="hero-title">
-            <h1><img src="logo.png" alt="SafeTies" style="width: 25px; height: 25px;"> SafeTies
+            <h1><img src="logo.png" alt="SafeTies" style="width: 30px; height: 30px;"> SafeTies - 2FA for People
             </h1>
-            <h2>Safewords for Secure Conversations</h2>
+            <h2>Prevent AI Deepfakes. Dynamic Safewords for Secure Conversations.</h2>
         </div>
+
+        <img src="safeties-app.png" alt="SafeTies App" style="float: right; width: 30%; margin: 20px;">
+
+        <p>AI deepfakes have caused significant losses, notably fake kidnappings and even a $25 million scam, by
+            impersonating individuals via
+            text, email, voice and video. To combat this, SafeTies introduces rotating safe words, similar to Google
+            Authenticator,
+            to secure conversations against AI spoofing scams.</p>
+        <p>SafeTies enhances the security of your personal and professional conversations by introducing a second layer
+            of
+            verification. This means, alongside recognizing voice, video and text chats, you'll also confirm identities
+            through a dynamically generated safe word, accessible via the SafeTies app on your phone.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.safeties.app" class="cta-button">Download SafeTies
+            for
+            Android</a>
+        <a href="https://apps.apple.com/us/app/safeties-2fa-for-people/id6477622766" class="cta-button">Download
+            SafeTies for iOS</a>
     </div>
 
-    <section id="focus">
-        <h3>About SafeTies</h3>
-        <p>SafeTies is a platform that provides secure communication methods to verify human-to-human identity across
-            various communication forms.</p>
+    <section id="who-its-for">
+        <h3>Who Should Use SafeTies?</h3>
+        <p>SafeTies is for anyone who wants to ensure that the person they're talking to is who they say they are. It
+            can also help secure financial transactions. This
+            includes:</p>
+        <ul>
+            <li>Professionals in financial services (lawyers, accountants, investors, business owners)</li>
+            <li>Sensitive personal relationships (family members)</li>
+            <li>High Net Worth Individuals (HNWI)</li>
+            <li>Government employees involved in sensitive operations</li>
+        </ul>
     </section>
 
-    <section id="criteria">
-        <h3>2FA for Human Relationships</h3>
-        <p>SafeTies introduces a two-factor authentication (2FA) system for personal and professional connections. It
-            uses
-            rotating safe words to ensure secure conversations.</p>
+    <section id="how-it-works">
+        <h3>How It Works</h3>
+        <p>SafeTies enhances the security of your personal and professional conversations by introducing a second layer
+            of
+            verification. This means, alongside recognizing voice, video and text chats, you'll also confirm identities
+            through a dynamically generated safe word, accessible via the SafeTies app on your phone.</p>
+    </section>
 
+    <section id="features">
+        <h3>Features</h3>
+        <ul>
+            <li>Quickly set up SafeTies connections using a QR code, ensuring ease of use and accuracy in establishing
+                secure communication links.</li>
+            <li>Manage multiple relationships through the app, streamlining the verification process across personal and
+                professional networks without the need to juggle multiple verification methods.</li>
+            <li>Secure verification even without network or cellular connectivity.</li>
+            <li>Time-based, rotating safe word generation.</li>
+        </ul>
     </section>
 
     <section>
-        <p>Your trusted platform for secure and verified human-to-human communication.</p>
+        <h3>Relevant Articles</h3>
+        <ul>
+            <li><a href="https://www.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html">
+                    Finance
+                    worker pays out $25 million after video call with deepfake 'chief financial officer' - CNN</a></li>
+
+            <li><a
+                    href="https://www.theguardian.com/us-news/2023/jun/14/ai-kidnapping-scam-senate-hearing-jennifer-destefano">US
+                    mother gets call from 'kidnapped daughter' - but it's really an AI scam - The
+                    Guardian</a></li>
+            <li><a href="https://www.washingtonpost.com/opinions/2023/04/26/ai-privacy-safewords/">How
+                    an AI safeword
+                    can protect you and your money - Washington Post</a></li>
+            <li><a
+                    href="https://www.washingtonpost.com/technology/2023/10/17/should-you-have-family-safe-word-against-ai-voice-spoofing-scams/">Should
+                    you have a family 'safe word' against AI voice-spoofing scams? - Washington Post</a></li>
+            <li><a href="https://www.valuewalk.com/cyber-experts-reveal-the-safe-word-strategy-to-beat-ai-scams/">Cyber
+                    Experts Reveal The 'Safe Word' Strategy To Beat AI Scams - ValueWalk
+                </a></li>
+        </ul>
     </section>
     <footer>
         &copy; Safeties. All rights reserved.
